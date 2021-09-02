@@ -35,5 +35,6 @@ public class BinarySearch {
 		String key = sc.next();
 		
 		System.out.println("the word \""+key+"\" is present : "+binarySearch(words,key));
+		sc.close();
 	}
 }
