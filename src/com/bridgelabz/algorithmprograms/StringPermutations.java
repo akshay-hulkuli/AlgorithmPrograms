@@ -1,6 +1,5 @@
 package com.bridgelabz.algorithmprograms;
 
-import java.util.ArrayList;
 import java.util.*;
 
 public class StringPermutations {
