@@ -25,6 +25,7 @@ public class TestAnagram {
 		char[] stringArray1 = string1.toCharArray();
 		char[] stringArray2 = string2.toCharArray();
 		System.out.println("Are they anagrams each other : "+ checkAnagram(stringArray1, stringArray2));
+		sc.close();
 	}
 
 }
