@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 public class BinarySearch {
 	
-	private static boolean binarySearch(String[] words, String key) {
+	private static <T extends Comparable>boolean binarySearch(T[] words, T key) {
 		int lowerBound = 0;
 		int upperBound = words.length-1;
 		while(lowerBound<= upperBound) {
