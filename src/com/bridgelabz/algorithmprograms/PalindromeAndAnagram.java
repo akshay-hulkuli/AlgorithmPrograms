@@ -1,6 +1,5 @@
 package com.bridgelabz.algorithmprograms;
 
-import java.util.Scanner;
 import java.util.ArrayList;
 public class PalindromeAndAnagram {
 	
